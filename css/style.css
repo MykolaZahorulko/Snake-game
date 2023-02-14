@@ -1,0 +1,21 @@
+body {
+	background: url("../img/bg.jpg");
+	display: grid;
+	justify-content: center;
+}
+.str {
+	display: flex;
+	justify-content: center;
+}
+p {
+	color: #DDDDDD;
+	margin-right: 3px;	
+	font-size: 40px;
+}
+.left-section {
+	display: flex;
+	margin-right: 25px;
+}
+.rigth-section {
+	display: flex;
+}

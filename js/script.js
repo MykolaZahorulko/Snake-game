@@ -183,7 +183,7 @@ var circle = function (x, y, radius, fillCircle) {
     var apple = new Apple();
 
     var emoji1 = String.fromCodePoint(0x1F447);
-    var level = prompt("Яку хочеш складність гри? \n 50 - дуже важко \n 70 - важко \n 110 - середній \n 170 - легко \n Напиши цифру" + emoji1)
+    var level = prompt("How difficult do you want the game to be? \n 50 - Very difficult \n 70 - Difficult \n 110 - Middle \n 170 - Easy \n Write the number" + emoji1)
     // Запускаем функцию анимации через setInterval
     var intervalId = setInterval(function () {
     	ctx.clearRect(0, 0, width, height);

@@ -2,6 +2,7 @@ body {
 	background: url("../img/bg.jpg");
 	display: grid;
 	justify-content: center;
+	padding-top: 100px;
 }
 .str {
 	display: flex;
